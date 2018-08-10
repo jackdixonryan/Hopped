@@ -1,4 +1,4 @@
-# Hopped call jQuery
+# Hopped jQuery Call
 
 If you want to use the hops JSON as if it were an API in your project, you need only use the jQuery `getJSON` method as follows:
 
