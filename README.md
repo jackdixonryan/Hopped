@@ -2,7 +2,9 @@
 
 If you want to use the hops JSON as if it were an API in your project, you need only use the jQuery `getJSON` method as follows:
 
-```const url = 'https://jackdixonryan.github.io/Hopped/hops.JSON'
+```
+
+      const url = 'https://jackdixonryan.github.io/Hopped/hops.JSON'
       
       $.getJSON(url).done(function(data){
           console.log(data);
