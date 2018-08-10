@@ -17,6 +17,8 @@ If you want to use the hops JSON as if it were an API in your project, you need 
 
 A JSON file accessible at 'https://jackdixonryan.github.io/Hopped/hops.JSON' with information for any home brewing enthusiast on the strains of the hops plant and each varietals properties.
 
+#### Read the Documentation [here](https://github.com/jackdixonryan/Hopped/blob/master/docs.md).
+
 ### Project Goals
 
 * Bring scattered information on hops varietals into a single easily-referenced data structure.
