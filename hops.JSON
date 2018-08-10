@@ -316,6 +316,104 @@
             "beta" : {"min": 0.03, "max": 0.04},
             "oils" : {"min": 1.0, "max": 1.5},
             "beers": ["Ale", "American Ale", "Brown", "Pale Ale", "English Beer", "Porter"]
+        },
+        {
+            "name": "Admiral",
+            "location": {
+                "country" : "England",
+                "locale" : "Wye College"
+            }, 
+            "uses" : ["Bittering"],
+            "flavors" : ["Bitter", "Citrus", "Herbal"],
+            "alpha": {"min": 0.13, "max": 0.162},
+            "beta" : {"min": 0.048, "max": 0.061},
+            "oils" : {"min": 1.0, "max": 1.7},
+            "beers": ["Bitter", "Belgian Ale", "APA", "IPA"]
+        },
+        {
+            "name": "Agnus",
+            "location": {
+                "country" : "Czech Republic"
+            }, 
+            "uses" : ["Bittering", "Aroma"],
+            "flavors" : ["Spicy", "Herbal"],
+            "alpha": {"min": 0.09, "max": 0.14},
+            "beta" : {"min": 0.04, "max": 0.065},
+            "oils" : {"min": 2.0, "max": 3.0},
+            "beers": ["Pilsner", "Lager", "Pale Ale"]
+        },
+        {
+            "name": "Banner",
+            "location": {
+                "country" : "United States"
+            }, 
+            "uses" : ["Bittering"],
+            "flavors" : ["Bitter"],
+            "alpha": {"min": 0.084, "max": 0.13},
+            "beta" : {"min": 0.053, "max": 0.08},
+            "oils" : {"min": 2.17},
+            "beers": ["Bitter"]
+        },
+        {
+            "name": "Bitter Gold",
+            "uses" : ["Bittering"],
+            "flavors" : ["Bitter"],
+            "alpha": {"min": 0.154, "max": 0.188},
+            "beta" : {"min": 0.061, "max": 0.08},
+            "oils" : {"min": 0.81, "max": 3.92},
+            "beers": ["Ale", "Lager", "Pilsner", "Bitter", "IPA"]
+        },
+        {
+            "name": "Brewer's Gold",
+            "location": {
+                "country" : "England",
+                "locale" : "Wye College"
+            }, 
+            "uses" : ["Bittering"],
+            "flavors" : ["Spicy", "Black Currant"],
+            "alpha": {"min": 0.071, "max": 0.113},
+            "beta" : {"min": 0.033, "max": 0.061},
+            "oils" : {"min": 1.96},
+            "beers": ["Ale", "APA", "Bitter", "Stout"]
+        },
+        {
+            "name": "Brewer's Gold",
+            "location": {
+                "country" : "United States",
+                "state" : "Oregon"
+            }, 
+            "uses" : ["Bittering"],
+            "flavors" : [],
+            "alpha": {"min": 0.081, "max": 0.131},
+            "beta" : {"min": 0.037, "max": 0.068},
+            "oils" : {"min": 1.8},
+            "beers": ["IPA"]
+        },
+        {
+            "name": "Bullion",
+            "location": {
+                "country" : "England",
+                "locale" : "Wye College"
+            }, 
+            "uses" : ["Bittering"],
+            "flavors" : ["Spicy", "Fruity"],
+            "alpha": {"min": 0.067, "max": 0.129},
+            "beta" : {"min": 0.037, "max": 0.091},
+            "oils" : {"min": 1.14, "max": 2.70},
+            "beers": ["Stout"]
+        },
+        {
+            "name": "California Cluster",
+            "location": {
+                "country" : "United States",
+                "state" : "California",
+                "locale" : "Clearlake"
+            }, 
+            "uses" : ["Bittering"],
+            "flavors" : ["Generic"],
+            "alpha": {"min": 0.055, "max": 0.085},
+            "beta" : {"min": 0.045, "max": 0.055},
+            "beers": ["Porter", "English Beer", "Amber"]
         }
     ]
 }
