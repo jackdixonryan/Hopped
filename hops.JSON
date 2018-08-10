@@ -1,0 +1,262 @@
+{
+    "search" : [
+        {
+            "name": "Ahtanum",
+            "brand": "YCR",
+            "location": {
+                "country" : "United States",
+                "state" : "Washington",
+                "locale" : "Yakima Valley"
+            },
+            "uses": ["Bittering", "Aroma"],
+            "flavors": ["Citrus", "Grapefruit", "Earthy", "Floral"],
+            "alpha": {"min": 0.05, "max": 0.07},
+            "beta": {"min": 0.05, "max": 0.06},
+            "oils": {"min": 0.8, "max": 1.2},
+            "beers": []
+        },
+        {
+            "name": "Amarillo",
+            "brand": "VGF",
+            "location":{
+                "country": "United States",
+                "state":"Washington"
+            },
+            "uses": ["Aroma", "Flavor"],
+            "flavors": ["Floral", "Spicy", "Citrus", "Orange"],
+            "alpha": {"min": 0.06, "max": 0.07},
+            "beta": {"min": 0.05, "max": 0.07},
+            "oils": {"min": 1.5, "max": 1.9},
+            "beers": ["Ale", "IPA"]
+        },
+        {
+            "name": "",
+            "brand": "",
+            "location": {
+                "country" : "",
+                "state" : "",
+                "locale" : ""
+            }, 
+            "uses" : [],
+            "flavors" : [],
+            "alpha": {"min": 0, "max": 0},
+            "beta" : {"min": 0, "max": 0},
+            "oils" : {"min": 0, "max": 0},
+            "beers": []
+        },
+        {
+            "name": "Apollo",
+            "brand": "Golden Gate Roza Hop Ranches",
+            "location": {
+                "country" : "United States",
+                "state" : "Washington",
+                "locale" : "Prosser, WA"
+            }, 
+            "uses" : ["Bittering"],
+            "flavors" : ["Bitter"],
+            "alpha": {"min": 0.15, "max": 0.19},
+            "beta" : {"min": 0.055, "max": 0.08},
+            "oils" : {"min": 1.5, "max": 2.5}
+        },
+        {
+            "name": "Azacca",
+            "brand": "ADHA",
+            "location": {
+                "country" : "United States",
+                "state" : "",
+                "locale" : ""
+            }, 
+            "uses" : ["Aroma", "Flavor"],
+            "flavors" : ["Mango", "Papaya", "Orange", "Grapefruit", "Lemon", "Spicy", "Citrus", "Tropical", "Grassy", "Piney"],
+            "alpha": {"min": 0.14, "max": 0.16},
+            "beta" : {"min": 0.04, "max": 0.055},
+            "oils" : {"min": 1.6, "max": 2.5}
+        },
+        {
+            "name": "Bravo",
+            "brand": "Hopsteiner Breeding Program",
+            "uses" : ["Bittering", "Aroma"],
+            "flavors" : ["Fruity", "Floral"]
+        },
+        {
+            "name": "Calypso",
+            "uses" : ["Bittering", "Aroma"],
+            "flavors" : ["Pear", "Apple", "Earthy", "Tea"]
+        },
+        {
+            "name": "Cascade",
+            "brand": "USDA-ARS",
+            "location": {
+                "country" : "United States",
+                "state" : "Oregon"
+            }, 
+            "uses" : ["Aroma", "Flavor", "Bittering"],
+            "flavors" : ["Floral", "Spicy", "Citrus", "Grapefruit"],
+            "alpha": {"min": 0.045, "max": 0.07},
+            "beta" : {"min": 0.048, "max": 0.07},
+            "oils" : {"min": 0.7, "max": 1.4},
+            "beers": ["Pale Ale", "IPA", "Porter"]
+        },
+        {
+            "name": "Centennial",
+            "location": {
+                "country" : "United States"
+            }, 
+            "uses" : ["Bittering", "Aroma"],
+            "flavors" : ["Citrus", "Lemon", "Floral"],
+            "alpha": {"min": 0.095, "max": 0.115},
+            "beta" : {"min": 0.035, "max": 0.045},
+            "oils" : {"min": 1.5, "max": 2.5},
+            "beers": ["Ale", "IPA"]
+        },
+        {
+            "name": "Chelan",
+            "brand": "John I. Haas, Inc.",
+            "location": {
+                "country" : "United States"
+            }, 
+            "uses" : ["Bittering"],
+            "flavors" : [],
+            "alpha": {"min": 0.115, "max": 0.135}
+        },
+        {
+            "name": "Chinook",
+            "location": {
+                "country" : "United States",
+                "state" : ["Washington", "Idaho"]
+            }, 
+            "uses" : ["Bittering"],
+            "flavors" : ["Piney", "Spicy"],
+            "alpha": {"min": 0.12, "max": 0.14},
+            "beta" : {},
+            "oils" : {},
+            "beers": ["Pale Ale", "Lager"]
+        },
+        {
+            "name": "Citra",
+            "brand": "HBC",
+            "location": {
+                "country" : "",
+                "state" : "",
+                "locale" : ""
+            }, 
+            "uses" : ["Aroma"],
+            "flavors" : ["Citrus", "Tropical"],
+            "alpha": {"min": 0.12, "max": 0.14},
+            "beta" : "",
+            "oils" : "",
+            "beers": []
+        },
+        {
+            "name": "Crystal",
+            "brand": ["Hallertau", "Cascade", "Brewer's Gold", "Early Green"],
+            "location": {
+                "country" : "United States"
+            }, 
+            "uses" : [],
+            "flavors" : ["Spicy"],
+            "alpha": {"min": 0.035, "max": 0.062},
+            "beta" : "",
+            "oils" : "",
+            "beers": ["Pilsner", "Lager", "Kölsch", "Belgian Ale"]
+        },
+        {
+            "name": "CTZ",
+            "brand": "",
+            "location": {
+                "country" : "",
+                "state" : "",
+                "locale" : ""
+            }, 
+            "uses" : [],
+            "flavors" : [],
+            "alpha": {"min": 0.14, "max": 0.17},
+            "beta" : "",
+            "oils" : "",
+            "beers": ["IPA", "Pale Ale", "Stout", "Lager"]
+        },
+        {
+            "name": "Fuggle",
+            "brand": "",
+            "location": {
+                "country" : "England",
+                "locale" : "Horsmonden, Kent"
+            }, 
+            "uses" : ["Aroma"],
+            "flavors" : ["Earthy"],
+            "alpha": {"min": 0.045, "max": 0.05},
+            "beta" : "",
+            "oils" : "",
+            "beers": ["Stout", "English Beer", "American Ale"]
+        },
+        {
+            "name": "Golding",
+            "uses" : ["Bittering", "Flavor"],
+            "flavors" : ["Floral", "Bitter"],
+            "alpha": {"min": 0.04, "max": 0.06},
+            "beta" : "",
+            "oils" : "",
+            "beers": ["English Beer", "Ale", "Belgian Ale"]
+        },
+        {
+            "name": "Lambic",
+            "brand": "",
+            "location": {
+                "country" : "United States",
+                "state" : "Oregon",
+                "locale" : "Willamette Valley"
+            }, 
+            "uses" : [""],
+            "flavors" : ["Fruity", "Floral"],
+            "alpha": {"min": 0.01, "max": 0.02},
+            "beta" : "",
+            "oils" : "",
+            "beers": ["Lambic"]
+        },
+        {
+            "name": "Magnum",
+            "brand": "",
+            "location": {
+                "country" : "",
+                "state" : "",
+                "locale" : ""
+            }, 
+            "uses" : ["Bittering"],
+            "flavors" : [],
+            "alpha": {"min": 0.12, "max": 0.15},
+            "beta" : "",
+            "oils" : "",
+            "beers": ["Ale", "Lager", "IPA"]
+        },
+        {
+            "name": "Mosaic",
+            "brand": "HBC",
+            "location": {
+                "country" : "United State",
+                "state" : "",
+                "locale" : ""
+            }, 
+            "uses" : ["Bittering", "Aroma"],
+            "flavors" : ["Tropical", "Blueberry", "Tangerine", "Floral", "Earthy"],
+            "alpha": "",
+            "beta" : "",
+            "oils" : "",
+            "beers": ["Brown", "IPA", "Pale Ale"]
+        },
+        {
+            "name": "Mt. Hood",
+            "brand": "",
+            "location": {
+                "country" : "",
+                "state" : "",
+                "locale" : ""
+            }, 
+            "uses" : [],
+            "flavors" : [],
+            "alpha": {"min": 0.04, "max": 0.07},
+            "beta" : "",
+            "oils" : "",
+            "beers": []
+        }
+    ]
+}
