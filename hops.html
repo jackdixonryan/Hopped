@@ -21,8 +21,8 @@
       
       $.getJSON(url).done(function(data){
           console.log(data);
-          for (let i = 0; i < data.search.length; i++){
-              $('#results').append(data.search[i].name + '<br>');
+          for (let i = 0; i < data.length; i++){
+              $('#results').append(data[i].name + '<br>');
           }
       });
 

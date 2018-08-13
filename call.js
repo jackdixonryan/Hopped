@@ -7,7 +7,7 @@ let argument = process.argv.slice(3).join(' ');
 //     case: 'searchBitters':
 // }
 
-fs.readFile('hops.JSON', 'utf-8', function(err, res){
+fs.readFile('hops.json', 'utf-8', function(err, res){
     if (err) throw err;
     const json = JSON.parse(res);
     for (let i = 0; i < json.search.length; i++){
