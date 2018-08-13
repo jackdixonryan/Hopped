@@ -1,21 +1,26 @@
 # Hopped JSON
 
-## Hopped jQuery Call
+## ES6
 
-If you want to use the hops JSON as if it were an API in your project, you need only use the jQuery `getJSON` method as follows:
+## Hopped JSON Call
+
+If you want to use hops.json in your project, use the ES6 `fetch()` method.
 
 ```
 
       const url = 'https://jackdixonryan.github.io/Hopped/hops.JSON'
       
-      $.getJSON(url).done(function(data){
-          console.log(data);
+      fetch(url)
+        .then(data => data.json())
+        .then(result => return result);
 
 ```
 
+Or load the jQuery library and get the json file with the `$.getJSON()` method.
+
 ## About
 
-A JSON file accessible at 'https://jackdixonryan.github.io/Hopped/hops.JSON' with information for any home brewing enthusiast on the strains of the hops plant and each varietals properties.
+A JSON file accessible at 'https://jackdixonryan.github.io/Hopped/hops.json' with information for any home brewing enthusiast on the strains of the hops plant and each varietals properties.
 
 #### Read the Documentation [here](https://github.com/jackdixonryan/Hopped/blob/master/docs.md).
 

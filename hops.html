@@ -10,22 +10,7 @@
 
     <div id='results'></div>
 
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+    <script src = entry.js></script>
 
-  <script>
-
-      const url = 'https://jackdixonryan.github.io/Hopped/hops.JSON'
-      
-      $.getJSON(url).done(function(data){
-          console.log(data);
-          for (let i = 0; i < data.length; i++){
-              $('#results').append(data[i].name + '<br>');
-          }
-      });
-
-  </script>
 </body>
 </html>

@@ -1,11 +1,19 @@
 # Documentation
 
-I recognize that this isn't an API but just a basic JSON, however, I'd like to remember the call syntax and have somewhere where it's all written down.
+The hops api is a very basic JSON file where data is stored in an easily accessible array. However, some information is needed to understand the data organization.  
 
 ## Basic Path
 
-From the JSON file, every hop is a unique index in the JSON's search array, so `const basic path = json.search[index];` 
-will return all data associated with the hops varietal located at that index.
+`hops.json` is organized principally as an array, so every item in the file can be accessed as such: 
+
+```
+    const json = 'jackdixonryan.github.io/Hopped/hops.json'
+
+    //Run your preferred get method here
+
+    const firstResultName = json[0].name;
+
+```
 
 ### String and Array Properties of the Hops Object
 * `name` : the name of the varietal
