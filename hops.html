@@ -5,10 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hops</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='main.css'>
 </head>
 <body>
+    <nav id='navbar'>
+        <h3 id='page-title'>Hopped</h3>
+    </nav>
 
-    <div id='results'></div>
+    <div id='top'>
+        <div id='info' class='flex-item'>
+            <h3>About</h3>
+            <p id='page-info'>Search for a hop. Look at the results. Make your perfect brew.</p>
+        </div>
+
+        <div id='search-div' class='flex-item'>
+            <h3>Search the Hopped API</h3>
+            <div id='params'> 
+                <input id='search-input' type='text' placeholder='fuggle, eg.'>
+            </div>
+        </div>
+    </div>
+
+    <div id='res'>
+        <ul id='suggestions'></ul>
+    </div>
 
     <script src = entry.js></script>
 
