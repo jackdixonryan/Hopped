@@ -1,8 +1,10 @@
 # Hopped JSON
 
-## ES6
+An easy to use json file providing vital information about brewer's hops choices. 
 
-## Hopped JSON Call
+[View an example HTML application](https://jackdixonryan.github.io/Hopped/hops.html)
+
+## JSON Call
 
 If you want to use hops.json in your project, use the ES6 `fetch()` method.
 
